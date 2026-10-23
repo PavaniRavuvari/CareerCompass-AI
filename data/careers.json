@@ -1,0 +1,341 @@
+[
+ {
+  "title": "Data Scientist",
+  "description": "Builds statistical and machine learning models to extract insights and predictions from data.",
+  "skills": [
+   "Python",
+   "SQL",
+   "Statistics",
+   "Machine Learning",
+   "Pandas",
+   "Data Visualization",
+   "scikit-learn",
+   "Communication"
+  ],
+  "interests": [
+   "data",
+   "research",
+   "math",
+   "ai",
+   "analytics"
+  ],
+  "salary": "₹8–20 LPA entry",
+  "outlook": "Strong growth",
+  "projects": [
+   "Customer churn prediction model",
+   "Sales forecasting dashboard"
+  ]
+ },
+ {
+  "title": "Machine Learning Engineer",
+  "description": "Designs, trains and deploys ML models into production systems.",
+  "skills": [
+   "Python",
+   "Machine Learning",
+   "Deep Learning",
+   "TensorFlow",
+   "PyTorch",
+   "MLOps",
+   "Docker",
+   "SQL"
+  ],
+  "interests": [
+   "ai",
+   "machine learning",
+   "automation",
+   "engineering"
+  ],
+  "salary": "₹10–25 LPA entry",
+  "outlook": "Very strong growth",
+  "projects": [
+   "Image classifier deployed as API",
+   "End-to-end MLOps pipeline"
+  ]
+ },
+ {
+  "title": "Data Analyst",
+  "description": "Cleans, analyzes and visualizes data to support business decisions.",
+  "skills": [
+   "SQL",
+   "Excel",
+   "Power BI",
+   "Tableau",
+   "Python",
+   "Statistics",
+   "Data Visualization",
+   "Communication"
+  ],
+  "interests": [
+   "data",
+   "business",
+   "analytics",
+   "reporting"
+  ],
+  "salary": "₹4–9 LPA entry",
+  "outlook": "Strong growth",
+  "projects": [
+   "Sales KPI dashboard in Power BI",
+   "SQL analysis of public dataset"
+  ]
+ },
+ {
+  "title": "Frontend Developer",
+  "description": "Builds responsive, accessible user interfaces for web applications.",
+  "skills": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "React",
+   "TypeScript",
+   "Git",
+   "UI Design",
+   "Testing"
+  ],
+  "interests": [
+   "web",
+   "design",
+   "user experience",
+   "creative"
+  ],
+  "salary": "₹4–12 LPA entry",
+  "outlook": "Steady growth",
+  "projects": [
+   "Responsive portfolio site",
+   "React task manager app"
+  ]
+ },
+ {
+  "title": "Backend Developer",
+  "description": "Builds APIs, databases and server-side logic.",
+  "skills": [
+   "Python",
+   "Java",
+   "SQL",
+   "REST APIs",
+   "Django",
+   "Node.js",
+   "Git",
+   "Docker"
+  ],
+  "interests": [
+   "systems",
+   "web",
+   "engineering",
+   "problem solving"
+  ],
+  "salary": "₹5–14 LPA entry",
+  "outlook": "Strong growth",
+  "projects": [
+   "REST API with authentication",
+   "Microservice with Docker"
+  ]
+ },
+ {
+  "title": "Full Stack Developer",
+  "description": "Delivers complete web applications across frontend and backend.",
+  "skills": [
+   "JavaScript",
+   "React",
+   "Node.js",
+   "SQL",
+   "REST APIs",
+   "Git",
+   "HTML",
+   "CSS"
+  ],
+  "interests": [
+   "web",
+   "startups",
+   "building products",
+   "engineering"
+  ],
+  "salary": "₹5–15 LPA entry",
+  "outlook": "Strong growth",
+  "projects": [
+   "Full-stack e-commerce app",
+   "Real-time chat application"
+  ]
+ },
+ {
+  "title": "Cloud Engineer",
+  "description": "Designs and operates scalable infrastructure on cloud platforms.",
+  "skills": [
+   "AWS",
+   "Azure",
+   "Linux",
+   "Networking",
+   "Docker",
+   "Kubernetes",
+   "Terraform",
+   "Python"
+  ],
+  "interests": [
+   "infrastructure",
+   "cloud",
+   "systems",
+   "automation"
+  ],
+  "salary": "₹6–16 LPA entry",
+  "outlook": "Very strong growth",
+  "projects": [
+   "Deploy app on AWS with Terraform",
+   "Kubernetes cluster setup"
+  ]
+ },
+ {
+  "title": "DevOps Engineer",
+  "description": "Automates build, test and deployment pipelines and monitors systems.",
+  "skills": [
+   "Linux",
+   "Git",
+   "CI/CD",
+   "Docker",
+   "Kubernetes",
+   "Python",
+   "AWS",
+   "Monitoring"
+  ],
+  "interests": [
+   "automation",
+   "infrastructure",
+   "systems",
+   "reliability"
+  ],
+  "salary": "₹6–16 LPA entry",
+  "outlook": "Strong growth",
+  "projects": [
+   "CI/CD pipeline with GitHub Actions",
+   "Monitoring with Prometheus/Grafana"
+  ]
+ },
+ {
+  "title": "Cybersecurity Analyst",
+  "description": "Protects systems by monitoring threats, testing defenses and responding to incidents.",
+  "skills": [
+   "Networking",
+   "Linux",
+   "Security Fundamentals",
+   "Python",
+   "SIEM",
+   "Ethical Hacking",
+   "Risk Assessment",
+   "Communication"
+  ],
+  "interests": [
+   "security",
+   "investigation",
+   "networks",
+   "problem solving"
+  ],
+  "salary": "₹5–12 LPA entry",
+  "outlook": "Very strong growth",
+  "projects": [
+   "Home lab with SIEM",
+   "Vulnerability assessment report"
+  ]
+ },
+ {
+  "title": "AI Engineer (LLM Apps)",
+  "description": "Builds applications on large language models with RAG, prompting and evaluation.",
+  "skills": [
+   "Python",
+   "LLMs",
+   "Prompt Engineering",
+   "RAG",
+   "Vector Databases",
+   "REST APIs",
+   "Machine Learning",
+   "Git"
+  ],
+  "interests": [
+   "ai",
+   "chatbots",
+   "automation",
+   "building products"
+  ],
+  "salary": "₹8–22 LPA entry",
+  "outlook": "Very strong growth",
+  "projects": [
+   "RAG chatbot over documents",
+   "LLM evaluation harness"
+  ]
+ },
+ {
+  "title": "Product Manager",
+  "description": "Defines product vision, prioritizes features and coordinates teams.",
+  "skills": [
+   "Communication",
+   "Product Strategy",
+   "Data Analysis",
+   "User Research",
+   "Agile",
+   "SQL",
+   "Roadmapping",
+   "Leadership"
+  ],
+  "interests": [
+   "business",
+   "strategy",
+   "users",
+   "leadership"
+  ],
+  "salary": "₹8–20 LPA entry",
+  "outlook": "Steady growth",
+  "projects": [
+   "Product teardown case study",
+   "PRD for a new feature"
+  ]
+ },
+ {
+  "title": "UI/UX Designer",
+  "description": "Researches users and designs intuitive interfaces and experiences.",
+  "skills": [
+   "Figma",
+   "UI Design",
+   "User Research",
+   "Prototyping",
+   "Wireframing",
+   "Design Systems",
+   "Communication",
+   "HTML"
+  ],
+  "interests": [
+   "design",
+   "creative",
+   "users",
+   "psychology"
+  ],
+  "salary": "₹4–10 LPA entry",
+  "outlook": "Steady growth",
+  "projects": [
+   "App redesign case study",
+   "Design system in Figma"
+  ]
+ },
+ {
+  "title": "Business Analyst",
+  "description": "Bridges business needs and technical solutions through requirements and analysis.",
+  "skills": [
+   "Excel",
+   "SQL",
+   "Requirements Gathering",
+   "Communication",
+   "Power BI",
+   "Process Modeling",
+   "Agile",
+   "Statistics"
+  ],
+  "interests": [
+   "business",
+   "analytics",
+   "strategy",
+   "communication"
+  ],
+  "salary": "₹5–10 LPA entry",
+  "outlook": "Steady growth",
+  "projects": [
+   "Process improvement case study",
+   "Requirements doc + dashboard"
+  ]
+ }
+]

@@ -1,0 +1,506 @@
+[
+ {
+  "title": "Python for Everybody (Coursera)",
+  "url": "https://www.coursera.org/specializations/python",
+  "skills": [
+   "Python"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "SQLBolt interactive lessons",
+  "url": "https://sqlbolt.com",
+  "skills": [
+   "SQL"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Khan Academy Statistics",
+  "url": "https://www.khanacademy.org/math/statistics-probability",
+  "skills": [
+   "Statistics"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Andrew Ng Machine Learning Specialization",
+  "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+  "skills": [
+   "Machine Learning"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Kaggle Learn: Pandas",
+  "url": "https://www.kaggle.com/learn/pandas",
+  "skills": [
+   "Pandas"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Kaggle Learn: Data Visualization",
+  "url": "https://www.kaggle.com/learn/data-visualization",
+  "skills": [
+   "Data Visualization"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "scikit-learn User Guide",
+  "url": "https://scikit-learn.org/stable/user_guide.html",
+  "skills": [
+   "scikit-learn"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Coursera: Improving Communication Skills",
+  "url": "https://www.coursera.org/learn/wharton-communication-skills",
+  "skills": [
+   "Communication"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "fast.ai Practical Deep Learning",
+  "url": "https://course.fast.ai",
+  "skills": [
+   "Deep Learning"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "TensorFlow Tutorials",
+  "url": "https://www.tensorflow.org/tutorials",
+  "skills": [
+   "TensorFlow"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "PyTorch Tutorials",
+  "url": "https://pytorch.org/tutorials",
+  "skills": [
+   "PyTorch"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Made With ML MLOps",
+  "url": "https://madewithml.com",
+  "skills": [
+   "MLOps"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Docker Getting Started",
+  "url": "https://docs.docker.com/get-started/",
+  "skills": [
+   "Docker"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Excel Skills for Business (Coursera)",
+  "url": "https://www.coursera.org/specializations/excel",
+  "skills": [
+   "Excel"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "Microsoft Learn: Power BI",
+  "url": "https://learn.microsoft.com/training/powerplatform/power-bi",
+  "skills": [
+   "Power BI"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Tableau Free Training",
+  "url": "https://www.tableau.com/learn/training",
+  "skills": [
+   "Tableau"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "MDN HTML Guide",
+  "url": "https://developer.mozilla.org/docs/Learn/HTML",
+  "skills": [
+   "HTML"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "MDN CSS Guide",
+  "url": "https://developer.mozilla.org/docs/Learn/CSS",
+  "skills": [
+   "CSS"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "javascript.info",
+  "url": "https://javascript.info",
+  "skills": [
+   "JavaScript"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "React Official Docs",
+  "url": "https://react.dev/learn",
+  "skills": [
+   "React"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "TypeScript Handbook",
+  "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+  "skills": [
+   "TypeScript"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Pro Git Book",
+  "url": "https://git-scm.com/book",
+  "skills": [
+   "Git"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Google UX Design Certificate",
+  "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+  "skills": [
+   "UI Design"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "Testing JavaScript",
+  "url": "https://testingjavascript.com",
+  "skills": [
+   "Testing"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "MOOC.fi Java Programming",
+  "url": "https://java-programming.mooc.fi",
+  "skills": [
+   "Java"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "REST API Tutorial",
+  "url": "https://restfulapi.net",
+  "skills": [
+   "REST APIs"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Django Official Tutorial",
+  "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+  "skills": [
+   "Django"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Node.js Learn",
+  "url": "https://nodejs.org/en/learn",
+  "skills": [
+   "Node.js"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "AWS Skill Builder",
+  "url": "https://skillbuilder.aws",
+  "skills": [
+   "AWS"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Microsoft Learn: Azure Fundamentals",
+  "url": "https://learn.microsoft.com/training/azure/",
+  "skills": [
+   "Azure"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Linux Journey",
+  "url": "https://linuxjourney.com",
+  "skills": [
+   "Linux"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Cisco Networking Basics",
+  "url": "https://www.netacad.com",
+  "skills": [
+   "Networking"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Kubernetes Basics",
+  "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+  "skills": [
+   "Kubernetes"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "HashiCorp Terraform Tutorials",
+  "url": "https://developer.hashicorp.com/terraform/tutorials",
+  "skills": [
+   "Terraform"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "GitHub Actions Docs",
+  "url": "https://docs.github.com/actions",
+  "skills": [
+   "CI/CD"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Prometheus Getting Started",
+  "url": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+  "skills": [
+   "Monitoring"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Google Cybersecurity Certificate",
+  "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+  "skills": [
+   "Security Fundamentals"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "Splunk Free Training",
+  "url": "https://www.splunk.com/en_us/training/free-courses/overview.html",
+  "skills": [
+   "SIEM"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "TryHackMe",
+  "url": "https://tryhackme.com",
+  "skills": [
+   "Ethical Hacking"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "NIST Risk Management Framework",
+  "url": "https://csrc.nist.gov/projects/risk-management",
+  "skills": [
+   "Risk Assessment"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Hugging Face LLM Course",
+  "url": "https://huggingface.co/learn/llm-course",
+  "skills": [
+   "LLMs"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Google Prompting Guide",
+  "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+  "skills": [
+   "Prompt Engineering"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "LangChain RAG Tutorial",
+  "url": "https://python.langchain.com/docs/tutorials/rag/",
+  "skills": [
+   "RAG"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "FAISS Wiki",
+  "url": "https://github.com/facebookresearch/faiss/wiki",
+  "skills": [
+   "Vector Databases"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Reforge Product Blog",
+  "url": "https://www.reforge.com/blog",
+  "skills": [
+   "Product Strategy"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Google Data Analytics Certificate",
+  "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+  "skills": [
+   "Data Analysis"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "NN/g UX Research Articles",
+  "url": "https://www.nngroup.com/topic/research-methods/",
+  "skills": [
+   "User Research"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Atlassian Agile Coach",
+  "url": "https://www.atlassian.com/agile",
+  "skills": [
+   "Agile"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "ProductPlan Roadmap Guide",
+  "url": "https://www.productplan.com/learn/",
+  "skills": [
+   "Roadmapping"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Coursera: Inspiring Leadership",
+  "url": "https://www.coursera.org/learn/inspiring-leadership-through-emotional-intelligence",
+  "skills": [
+   "Leadership"
+  ],
+  "type": "Course",
+  "level": "Beginner"
+ },
+ {
+  "title": "Figma Learn",
+  "url": "https://help.figma.com/hc/en-us/categories/360002051613",
+  "skills": [
+   "Figma"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Figma Prototyping Guide",
+  "url": "https://help.figma.com/hc/en-us/articles/360040314193",
+  "skills": [
+   "Prototyping"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Balsamiq Wireframing Academy",
+  "url": "https://balsamiq.com/learn/",
+  "skills": [
+   "Wireframing"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "Design Systems Handbook",
+  "url": "https://www.designbetter.co/design-systems-handbook",
+  "skills": [
+   "Design Systems"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "IIBA BA Resources",
+  "url": "https://www.iiba.org",
+  "skills": [
+   "Requirements Gathering"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ },
+ {
+  "title": "BPMN Tutorial (Camunda)",
+  "url": "https://camunda.com/bpmn/",
+  "skills": [
+   "Process Modeling"
+  ],
+  "type": "Docs/Tutorial",
+  "level": "Beginner"
+ }
+]

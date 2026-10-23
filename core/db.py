@@ -1,0 +1,103 @@
+"""SQLite storage for CareerCompass AI (single local user, no sign-in)."""
+import json
+import os
+import sqlite3
+from datetime import datetime
+
+DB_PATH = os.getenv("CAREERCOMPASS_DB", os.path.join(os.path.dirname(__file__), "..", "careercompass.db"))
+
+SCHEMA = """
+CREATE TABLE IF NOT EXISTS profile (id INTEGER PRIMARY KEY CHECK (id = 1), data TEXT NOT NULL, updated_at TEXT);
+CREATE TABLE IF NOT EXISTS recommendations (id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT, created_at TEXT);
+CREATE TABLE IF NOT EXISTS resumes (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, content TEXT, created_at TEXT);
+CREATE TABLE IF NOT EXISTS ats_reports (id INTEGER PRIMARY KEY AUTOINCREMENT, score REAL, data TEXT, created_at TEXT);
+CREATE TABLE IF NOT EXISTS roadmap_tasks (id INTEGER PRIMARY KEY AUTOINCREMENT, career TEXT, week INTEGER,
+    title TEXT, detail TEXT, hours REAL, done INTEGER DEFAULT 0);
+CREATE TABLE IF NOT EXISTS chat (id INTEGER PRIMARY KEY AUTOINCREMENT, role TEXT, content TEXT, created_at TEXT);
+"""
+
+
+def _now():
+    return datetime.utcnow().isoformat(timespec="seconds")
+
+
+def connect(path=None):
+    conn = sqlite3.connect(path or DB_PATH, check_same_thread=False)
+    conn.row_factory = sqlite3.Row
+    conn.executescript(SCHEMA)
+    return conn
+
+
+# ---- profile
+def save_profile(conn, profile: dict):
+    conn.execute("INSERT INTO profile(id,data,updated_at) VALUES(1,?,?) ON CONFLICT(id) DO UPDATE SET data=excluded.data, updated_at=excluded.updated_at",
+                 (json.dumps(profile), _now()))
+    conn.commit()
+
+
+def load_profile(conn):
+    row = conn.execute("SELECT data FROM profile WHERE id=1").fetchone()
+    return json.loads(row["data"]) if row else None
+
+
+# ---- recommendations
+def save_recommendations(conn, recs):
+    conn.execute("INSERT INTO recommendations(data,created_at) VALUES(?,?)", (json.dumps(recs), _now()))
+    conn.commit()
+
+
+def latest_recommendations(conn):
+    row = conn.execute("SELECT data FROM recommendations ORDER BY id DESC LIMIT 1").fetchone()
+    return json.loads(row["data"]) if row else None
+
+
+# ---- resumes
+def save_resume(conn, title, content):
+    conn.execute("INSERT INTO resumes(title,content,created_at) VALUES(?,?,?)", (title, content, _now()))
+    conn.commit()
+
+
+def list_resumes(conn):
+    return [dict(r) for r in conn.execute("SELECT * FROM resumes ORDER BY id DESC")]
+
+
+# ---- ATS
+def save_ats(conn, score, data):
+    conn.execute("INSERT INTO ats_reports(score,data,created_at) VALUES(?,?,?)", (score, json.dumps(data), _now()))
+    conn.commit()
+
+
+def list_ats(conn):
+    return [dict(r) for r in conn.execute("SELECT id,score,created_at FROM ats_reports ORDER BY id DESC")]
+
+
+# ---- roadmap
+def replace_roadmap(conn, career, tasks):
+    conn.execute("DELETE FROM roadmap_tasks")
+    conn.executemany("INSERT INTO roadmap_tasks(career,week,title,detail,hours) VALUES(?,?,?,?,?)",
+                     [(career, t["week"], t["title"], t["detail"], t["hours"]) for t in tasks])
+    conn.commit()
+
+
+def roadmap(conn):
+    return [dict(r) for r in conn.execute("SELECT * FROM roadmap_tasks ORDER BY week, id")]
+
+
+def set_task_done(conn, task_id, done):
+    conn.execute("UPDATE roadmap_tasks SET done=? WHERE id=?", (1 if done else 0, task_id))
+    conn.commit()
+
+
+# ---- chat
+def add_message(conn, role, content):
+    conn.execute("INSERT INTO chat(role,content,created_at) VALUES(?,?,?)", (role, content, _now()))
+    conn.commit()
+
+
+def messages(conn):
+    return [dict(r) for r in conn.execute("SELECT role,content FROM chat ORDER BY id")]
+
+
+def clear_chat(conn):
+    conn.execute("DELETE FROM chat")
+    conn.commit()

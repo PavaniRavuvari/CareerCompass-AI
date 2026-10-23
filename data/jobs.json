@@ -1,0 +1,164 @@
+[
+ {
+  "title": "Data Analyst Intern",
+  "company": "Insightly Analytics",
+  "location": "Bengaluru",
+  "type": "Internship",
+  "skills": [
+   "SQL",
+   "Excel",
+   "Power BI"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Data Analyst Intern at Insightly Analytics. Requires SQL, Excel, Power BI."
+ },
+ {
+  "title": "Junior Data Scientist",
+  "company": "Northwind AI",
+  "location": "Hyderabad",
+  "type": "Full-time",
+  "skills": [
+   "Python",
+   "Machine Learning",
+   "SQL",
+   "Statistics"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Junior Data Scientist at Northwind AI. Requires Python, Machine Learning, SQL, Statistics."
+ },
+ {
+  "title": "ML Engineer Trainee",
+  "company": "Vector Labs",
+  "location": "Remote",
+  "type": "Full-time",
+  "skills": [
+   "Python",
+   "PyTorch",
+   "Docker",
+   "MLOps"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: ML Engineer Trainee at Vector Labs. Requires Python, PyTorch, Docker, MLOps."
+ },
+ {
+  "title": "Frontend Developer Intern",
+  "company": "PixelForge",
+  "location": "Pune",
+  "type": "Internship",
+  "skills": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "React"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Frontend Developer Intern at PixelForge. Requires HTML, CSS, JavaScript, React."
+ },
+ {
+  "title": "Backend Developer",
+  "company": "Stackwise",
+  "location": "Chennai",
+  "type": "Full-time",
+  "skills": [
+   "Python",
+   "Django",
+   "SQL",
+   "REST APIs"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Backend Developer at Stackwise. Requires Python, Django, SQL, REST APIs."
+ },
+ {
+  "title": "Cloud Support Associate",
+  "company": "Nimbus Cloud",
+  "location": "Remote",
+  "type": "Full-time",
+  "skills": [
+   "AWS",
+   "Linux",
+   "Networking"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Cloud Support Associate at Nimbus Cloud. Requires AWS, Linux, Networking."
+ },
+ {
+  "title": "DevOps Intern",
+  "company": "ShipFast",
+  "location": "Gurugram",
+  "type": "Internship",
+  "skills": [
+   "Git",
+   "Docker",
+   "CI/CD",
+   "Linux"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: DevOps Intern at ShipFast. Requires Git, Docker, CI/CD, Linux."
+ },
+ {
+  "title": "SOC Analyst L1",
+  "company": "SecureNet",
+  "location": "Mumbai",
+  "type": "Full-time",
+  "skills": [
+   "Networking",
+   "SIEM",
+   "Security Fundamentals"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: SOC Analyst L1 at SecureNet. Requires Networking, SIEM, Security Fundamentals."
+ },
+ {
+  "title": "AI Engineer – LLM Apps",
+  "company": "PromptWorks",
+  "location": "Remote",
+  "type": "Full-time",
+  "skills": [
+   "Python",
+   "LLMs",
+   "RAG",
+   "Prompt Engineering"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: AI Engineer – LLM Apps at PromptWorks. Requires Python, LLMs, RAG, Prompt Engineering."
+ },
+ {
+  "title": "UI/UX Design Intern",
+  "company": "Craft Studio",
+  "location": "Bengaluru",
+  "type": "Internship",
+  "skills": [
+   "Figma",
+   "Wireframing",
+   "User Research"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: UI/UX Design Intern at Craft Studio. Requires Figma, Wireframing, User Research."
+ },
+ {
+  "title": "Associate Product Manager",
+  "company": "Launchpad",
+  "location": "Bengaluru",
+  "type": "Full-time",
+  "skills": [
+   "Product Strategy",
+   "Communication",
+   "SQL"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Associate Product Manager at Launchpad. Requires Product Strategy, Communication, SQL."
+ },
+ {
+  "title": "Business Analyst Trainee",
+  "company": "ClearPath Consulting",
+  "location": "Noida",
+  "type": "Full-time",
+  "skills": [
+   "Excel",
+   "SQL",
+   "Requirements Gathering"
+  ],
+  "url": "https://example.com/jobs",
+  "description": "DEMO listing: Business Analyst Trainee at ClearPath Consulting. Requires Excel, SQL, Requirements Gathering."
+ }
+]
