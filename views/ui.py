@@ -488,6 +488,116 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input[type="
     margin-left: 0 !important;
 }
 
+/* =============== BRANDING AND NAVIGATION REFINEMENTS =============== */
+
+/* Give the sidebar slightly more room for long navigation labels */
+section[data-testid="stSidebar"] {
+    min-width: 290px !important;
+    width: 290px !important;
+}
+
+/* Larger compass branding */
+.side-brand {
+    gap: 12px;
+}
+
+.side-logo {
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+    font-size: 38px;
+    border-radius: 18px;
+}
+
+.side-name {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+}
+
+.side-sub {
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+/* Reliably hide radio indicators without disabling navigation */
+section[data-testid="stSidebar"] div[role="radiogroup"] > label
+    [data-testid="stRadioButton"],
+section[data-testid="stSidebar"] div[role="radiogroup"] > label
+    input[type="radio"],
+section[data-testid="stSidebar"] div[role="radiogroup"] > label
+    > div:first-child > div:first-child {
+    display: none !important;
+}
+
+/* Keep navigation labels compact and aligned */
+section[data-testid="stSidebar"] div[role="radiogroup"] > label {
+    padding: 10px 10px !important;
+    gap: 0 !important;
+}
+
+section[data-testid="stSidebar"] div[role="radiogroup"] > label p {
+    font-size: 13.5px !important;
+    line-height: 1.35 !important;
+    white-space: nowrap !important;
+}
+
+/* Midnight Purple for page headings on light backgrounds */
+.stApp h1,
+.stApp h2,
+.stApp h3 {
+    color: #201747;
+}
+
+/* Preserve white text inside dark purple title banners */
+.stApp .hero h1,
+.stApp [style*="background: #201747"] h1 {
+    color: #FFFFFF !important;
+}
+
+/* Purple form-submit buttons, including login and registration */
+.stApp button[kind="secondaryFormSubmit"],
+.stApp button[data-testid="baseButton-secondaryFormSubmit"],
+.stApp [data-testid="stFormSubmitButton"] button {
+    background-color: #7957E8 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #7957E8 !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    min-height: 42px;
+}
+
+.stApp [data-testid="stFormSubmitButton"] button:hover {
+    background-color: #6741D9 !important;
+    border-color: #6741D9 !important;
+    color: #FFFFFF !important;
+}
+
+/* Sidebar buttons: purple background and readable white text */
+section[data-testid="stSidebar"] [data-testid="stButton"] > button {
+    background: #7957E8 !important;
+    background-color: #7957E8 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #7957E8 !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    min-height: 42px;
+}
+
+section[data-testid="stSidebar"] [data-testid="stButton"] > button:hover {
+    background: #6741D9 !important;
+    background-color: #6741D9 !important;
+    color: #FFFFFF !important;
+    border-color: #6741D9 !important;
+}
+
+/* Make Logout button text purple while keeping white background */
+section[data-testid="stSidebar"] [data-testid="stButton"] button {
+    color: #7957E8 !important;
+    -webkit-text-fill-color: #7957E8 !important;
+}
+
+
+
 
 </style>
 """
@@ -496,6 +606,7 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input[type="
 def inject_css():
     """Apply shared application styling."""
     st.markdown(CSS, unsafe_allow_html=True)
+
 
 
 
@@ -533,6 +644,8 @@ def title(heading, subtitle=""):
                     margin: 0;
                 ">
                     {subtitle}
+                </p>
+            </div>
         </div>
         """,
         unsafe_allow_html=True,
